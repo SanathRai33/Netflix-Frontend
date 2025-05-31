@@ -1,0 +1,112 @@
+.SignOut, .SignOut *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SignOut{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/Main/logout-bg.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SignOut header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.SignOut .logo{
+    width: 200px;
+    height: auto;
+}
+
+.SignOut .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.SignOut button{
+    padding: 7px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------- */
+
+.SignOut section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignOut section div{
+    width: 480px;
+    padding: 10px 10px 40px 10px;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 6px;
+}
+
+.SignOut section h1{
+    font-weight: 800;
+    /* color: transparent; */
+}
+
+.SignOut section p{
+    text-indent: 10px;
+    padding: 10px 15px;
+}
+
+/* ____________________________________________________ */
+
+.SignOut footer{
+    height: fit-content;
+    width: 100%;
+    padding: 40px 0 20px 180px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: grey;
+
+}
+
+.SignOut .links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.SignOut .link{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+
+.SignOut footer a{
+    width: 200px;
+    color: gray;
+}
+
+.SignOut footer select{
+    margin: 30px 0 10px 0;
+    background-color: transparent;
+    color: white;
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.SignOut option{
+    background-color: black;
+    color: aliceblue;
+}
